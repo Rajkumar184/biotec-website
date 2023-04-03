@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.clientSection {
+  padding: 70px 50px;
+  background: #11998E;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dv-header-promo-grey {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  align-content: center;
+  width: 100%;
+  height: calc(100vh - 78px);
 }
 
-.App-link {
-  color: #61dafb;
+.dv-header-promo-grey h1 {
+  font-size: 40px;
+  line-height: 55px;
+  /* padding: 0;
+  margin: 0; */
+  /* padding-bottom: 16px; */
+  color: #ffff;
+  font-weight: 700;
+  letter-spacing: 0.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.dv-header-promo-grey__sticky-image {
+  width: 474px;
+  height: 521px;
+  position: relative;
+}
+
+.dv-header-promo-grey__mini-order {
+  position: relative;
+  width: 550px;
+  z-index: 2;
+}
+
+.clientSection-banner {
+  padding: 70px 50px;
+  background: #ffff;
+}
+
+.elementor-22708 .elementor-element.elementor-element-da1d78f>.elementor-widget-container {
+  margin: 80px 0px 48px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.elementor-heading {
+  color: #11998E;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+}
+
+.elementor-heading-title {
+  color: #2d2928;
+  font-size: 18px !important;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  margin-bottom: 3rem;
+}
+
+.sub-heading {
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+.carrer-head-img {
+  margin-bottom: 2.5rem;
+}
+
+.img-150 {
+  height: 150px;
+  width: auto;
+}
+
+
+
+@media (max-width: 1120px) {
+  .dv-header-promo-grey__sticky-container {
+    display: none;
   }
 }
